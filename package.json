@@ -1,0 +1,27 @@
+{
+  "name": "gaussiankernelreg",
+  "version": "1.0.0",
+  "description": "Implements gaussian kernel regression in pure javascript",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rauljordan/gaussiankernelreg.js"
+  },
+  "keywords": [
+    "gaussian",
+    "kernel",
+    "regression"
+  ],
+  "author": "Raul Jordan <raulitojordan@gmail.com> (http://rauljordan.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rauljordan/gaussiankernelreg.js/issues"
+  },
+  "homepage": "https://github.com/rauljordan/gaussiankernelreg.js"
+}
