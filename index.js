@@ -7,10 +7,7 @@ function kernel (z) {
   });
 }
 
-function gaussianRegression (xs, x, y, h) {
+module.exports = function (xs, x, y, h) {
   var z = kernel(math.divide(math.subtract(xs, x), h));
   return math.sum(math.multiply(z, y)) / math.sum(z);
-}
-
-
-console.log(gaussianRegression([1,2], [0,1], [9, 3], 1))
+};
