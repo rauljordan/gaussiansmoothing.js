@@ -1,22 +1,17 @@
 # GaussianSmoothing.js
 
-Given a URL, fetches a list of all images in that webpage using
-node.js's request module
+Implements gaussian kernel regression smoothing in pure javascript
 
-[![Build Status](https://travis-ci.org/rauljordan/imagegrab.js.svg?branch=master)](https://travis-ci.org/rauljordan/imagegrab.js)
+[![Build Status](https://travis-ci.org/rauljordan/gaussiansmoothing.js.svg?branch=master)](https://travis-ci.org/rauljordan/gaussiansmoothing.js)
 
 # Usage
 
-function imgrab (url, callback)
-  - url: a url string for the desired site
-  - callback: a function to process the retrieved image URLs from the website
+function gaussiansmooth (data, callback)
+
 
 ```
-> var imgrab = require('imagegrab');
-> imgrab('http://mysite.com', function (images) {
-    console.log(images);
-  })
-> ['http://mysite.com/image1.jpg', 'http://mysite.com/image2.jpg']
+> var gaussiansmooth = require('gaussiansmoothing');
+
 ```
 
 
@@ -25,7 +20,7 @@ function imgrab (url, callback)
 With [npm](http://npmjs.org) do:
 
 ```
-npm install imagegrab
+npm install gaussiansmoothing
 ```
 
 
