@@ -1,5 +1,5 @@
 var test = require('tape');
-var gaussianRegression = require('../');
+var gaussianSmooth = require('../');
 
 test('timing test', function (t) {
   var x = [1,2,3,4,5,6,7,8,9,10];
@@ -11,7 +11,7 @@ test('timing test', function (t) {
 
   x.map(function (el) {
     xs.push(el);
-    ys.push(gaussianRegression(el, x, y, h));
+    ys.push(gaussianSmooth(el, x, y, h));
   });
 
 
