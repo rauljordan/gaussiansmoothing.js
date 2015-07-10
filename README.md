@@ -6,6 +6,7 @@ Implements gaussian kernel regression smoothing in pure javascript
 
 # Usage
 
+
 function gaussiansmooth (data, callback)
 
 
